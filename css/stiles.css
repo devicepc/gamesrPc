@@ -464,7 +464,7 @@ flex:1;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:auto;
-    height: 55px;
+    height: auto;
 }
 
 .renglon2{
@@ -477,7 +477,7 @@ flex:1;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:auto;
-    height: 55px;
+    height:auto;
 }
 
 hr{

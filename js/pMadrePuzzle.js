@@ -48,6 +48,55 @@ const cardsArray2 = [
      name: "parte12",  
      img: "./images/preguntasPM/SSD-M2.jpg",  
     },  
+    // nombres
+    {  
+        name: "parte1",  
+        img: "./images/preguntasPM/CONECTORCPU4P.jpg",  
+       },  
+       {  
+        name: "parte2",  
+        img: "./images/preguntasPM/biosTXT.jpg",  
+       },  
+       {  
+        name: "parte3",  
+        img: "./images/preguntasPM/IDETXT.jpg",  
+       },  
+       {  
+        name: "parte4",  
+        img: "./images/preguntasPM/CONECTOR24PIES.jpg",  
+       },  
+       {  
+        name: "parte5",  
+        img: "./images/preguntasPM/LGA.jpg",  
+       },  
+       {  
+        name: "parte6",  
+        img: "./images/preguntasPM/PANEL-TRASERO.jpg",  
+       },  
+       {  
+        name: "parte7",  
+        img: "./images/preguntasPM/PCITXT.jpg",  
+       },  
+       {  
+        name: "parte8",  
+        img: "./images/preguntasPM/PCIEXX1TXT.jpg",  
+       },  
+       {  
+        name: "parte9",  
+        img: "./images/preguntasPM/PILATXT.jpg",  
+       },  
+       {  
+        name: "parte10",  
+        img: "./images/preguntasPM/RAMTXT.jpg",  
+       },  
+       {  
+        name: "parte11",  
+        img: "./images/preguntasPM/SATATXT.jpg",  
+       },  
+       {  
+        name: "parte12",  
+        img: "./images/preguntasPM/SSD.jpg",  
+       },
    ];  
    // GAME   
    const game = document.getElementById("game");  
@@ -56,7 +105,8 @@ const cardsArray2 = [
    // game.addEventListener("click", secCount);  
    game.appendChild(grid);  
    // DOUBLE ARREY  
-   let gameGrid = cardsArray2.concat(cardsArray2);  
+   //let gameGrid = cardsArray2.concat(cardsArray2);  
+   let gameGrid = cardsArray2; 
    // FOR RAMDOMISING THE CARDS EVERY TIME WE REFERESH THE PAGE  
    gameGrid.sort(() => 0.5 - Math.random());  
    // CREATE CARDS  

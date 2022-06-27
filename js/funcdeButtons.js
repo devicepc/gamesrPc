@@ -989,18 +989,27 @@ const Proc ={
         this.partesProcOcultar();
         this.diferProcOcultar();
         this.fallasProcOcultar();
+        Fte.ocultarAllFte();
+         PM.ocultarAllPM();
+     Mem.oculterallMem();
     },
     partesProcMOstrar: function (){
         document.getElementById("PregPartesProc").style.display="block";
         this.tiposProcOcultar();
         this.diferProcOcultar();
         this.fallasProcOcultar();
+        Fte.ocultarAllFte();
+         PM.ocultarAllPM();
+     Mem.oculterallMem();
     },
     diferProcMOstrar: function (){
         document.getElementById("PregDifProc").style.display="block";
         this.partesProcOcultar();
         this.tiposProcOcultar();
         this.fallasProcOcultar();
+        Fte.ocultarAllFte();
+         PM.ocultarAllPM();
+     Mem.oculterallMem();
     },
     fallasProcMOstrar: function (){
         console.log("sqas")
@@ -1008,6 +1017,9 @@ const Proc ={
          this.partesProcOcultar();
         this.diferProcOcultar();
         this.tiposProcOcultar(); 
+        Fte.ocultarAllFte();
+        PM.ocultarAllPM();
+     Mem.oculterallMem();
     },
 
     tiposProcOcultar: function (){
