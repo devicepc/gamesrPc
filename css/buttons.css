@@ -7,7 +7,7 @@
     padding: 15px;
     margin-bottom: 10px;
     margin-left: 3%;
-    height: 400px;
+    height: auto;
     }
     
 
@@ -28,7 +28,7 @@
             padding: 15px;
             margin-left: 3%;
             margin-right: 3%;
-            height: 370px;
+            height: auto;
             }
             #button-containerDifeRam{
                 display:inline-block;
@@ -37,7 +37,7 @@
                 padding: 15px;
                 margin-left: 3%;
                 margin-right: 3%;
-                height: 420px;
+                height: auto;
                 }
 #button-containerDif{
                 display:inline-block;
@@ -46,7 +46,7 @@
                 padding: 15px;
                 margin-bottom: 10px;
                 margin-left: 3%;
-                height: 200px;
+                height: auto;
                 }
  .tester{
         height: 160px;

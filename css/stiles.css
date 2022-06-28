@@ -208,11 +208,11 @@ header label:hover {
 }
     .button-container{
         width: 85%;
-        height: 460px;
+        height: auto;
     }
 #button-container{
         width: 85%;
-    height: 560px;
+    height: auto;
     }
     
 
