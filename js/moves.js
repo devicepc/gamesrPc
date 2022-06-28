@@ -35,7 +35,7 @@ function moveFte(){
 function moveProc(){
     const pageWidth  = document.documentElement.scrollWidth;
     if(pageWidth <= 480){
-        window.scrollTo(0,5800);
+        window.scrollTo(0,7000);
     }else if(pageWidth <= 768){
         window.scrollTo(0,1200 );
     }
