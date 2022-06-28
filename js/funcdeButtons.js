@@ -1113,3 +1113,9 @@ function Mostrarma(){
       });
       document.getElementById("pares").style.display="block";
 }
+
+function pantalla(){
+    var windowWidth = window.innerWidth;
+    alert("ancho"+windowWidth)
+}
+pantalla();
