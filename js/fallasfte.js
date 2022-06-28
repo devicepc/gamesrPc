@@ -34,7 +34,6 @@ var respuestaCorrecta = new Array("Desconectada", "Quemado fusible", "Roto conde
 
     function check() {
 		const pageWidth  = document.documentElement.scrollWidth;
-		console.log(pageWidth);
 		if(pageWidth < 964) {
 			document.getElementById("button-containerradio").style.height = "1100px";
 		}

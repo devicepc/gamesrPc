@@ -506,6 +506,7 @@ tiposProcesador.addEventListener("click", function(event){
     PM.ocultarAllPM();
      Mem.oculterallMem();
     Proc.tiposProcMOstrar();
+    moveProc();
     init();
 });
 // fin mostrar juegos tipos de Procesador
@@ -516,6 +517,7 @@ partesProcesador.addEventListener("click", function(event){
     PM.ocultarAllPM();
      Mem.oculterallMem();
     Proc.partesProcMOstrar();
+     moveProc();
     init();
 
 });
@@ -527,6 +529,7 @@ DifProcesador.addEventListener("click", function(event){
     PM.ocultarAllPM();
      Mem.oculterallMem();
     Proc.diferProcMOstrar();
+     moveProc();
 });
 // fin mostrar juegos tipos de Procesador
 // mostrar juegos tipos de Procesador
@@ -540,6 +543,7 @@ FallasProcesador.addEventListener("click", function(event){
     PM.ocultarAllPM();
     Mem.oculterallMem(); 
     */
+    moveProc();
     init();
     
 });
@@ -1012,7 +1016,6 @@ const Proc ={
      Mem.oculterallMem();
     },
     fallasProcMOstrar: function (){
-        console.log("sqas")
          document.getElementById("PregFallasProc").style.display="block";
          this.partesProcOcultar();
         this.diferProcOcultar();
