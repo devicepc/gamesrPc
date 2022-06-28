@@ -463,7 +463,7 @@ tiposRam.addEventListener("click", function(event){
     Proc.ocultarAllProc();
     initPregRam();
     PM.ocultarAllPM();
-    pantalla();
+    
 });
 // fin mostrar juegos tipos de ram
 // mostrar juegos tipos de ram
@@ -1115,7 +1115,4 @@ function Mostrarma(){
       document.getElementById("pares").style.display="block";
 }
 
-function pantalla(){
-    var windowWidth = window.innerWidth;
-    alert("ancho"+windowWidth)
-}
+
