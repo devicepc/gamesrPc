@@ -93,3 +93,18 @@
     }
  
 }
+@media screen and (max-width:500px){
+    #masJgosMem{
+        margin-left: 30%;
+    }
+    #framePM001{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #button-containerRAM {
+        width: 85%;
+        height: auto;       
+    }
+ 
+
+}
