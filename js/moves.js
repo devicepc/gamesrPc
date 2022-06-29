@@ -8,6 +8,8 @@
         window.scrollTo(0,2300 );
     }else if(pageWidth <= 992){
         window.scrollTo(0,200 );
+    }else if(pageWidth > 1600){
+        window.scrollTo(0,1500 );
     }
 };
 
@@ -17,6 +19,8 @@ function movePlaca(){
         window.scrollTo(0,3200);
     }else if(pageWidth <= 768){
         window.scrollTo(0,1200 );
+    }else if(pageWidth > 1600){
+        window.scrollTo(0,1100 );
     }
 };
 
@@ -29,6 +33,8 @@ function moveFte(){
         window.scrollTo(0,830 );
     }else if(pageWidth <= 992){
         window.scrollTo(0,200 );
+    }else if(pageWidth > 1600){
+        window.scrollTo(0,600 );
     }
 };
 
@@ -38,6 +44,8 @@ function moveProc(){
         window.scrollTo(0,7000);
     }else if(pageWidth <= 768){
         window.scrollTo(0,1200 );
+    }else if(pageWidth > 1600){
+        window.scrollTo(0,1800 );
     }
 };
 
