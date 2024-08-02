@@ -31,7 +31,7 @@ function moveFte(){
         window.scrollTo(0, 1900);
     }else if(pageWidth <= 768){
         window.scrollTo(0,830 );
-    }else if(pageWidth <= 992){
+    }else if(pageWidth < 992){
         window.scrollTo(0,1200 );
     }else if(pageWidth > 1600){
         window.scrollTo(0,600 );
