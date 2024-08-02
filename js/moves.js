@@ -32,7 +32,7 @@ function moveFte(){
     }else if(pageWidth <= 768){
         window.scrollTo(0,830 );
     }else if(pageWidth <= 992){
-        window.scrollTo(0,400 );
+        window.scrollTo(0,700 );
     }else if(pageWidth > 1600){
         window.scrollTo(0,600 );
     }
